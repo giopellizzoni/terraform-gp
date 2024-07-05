@@ -8,5 +8,5 @@ module "app1" {
   docker_image_tag = "v1.1.0"
   key_vault_id = module.vault.id
 
-  depends_on = [ module.resources ]
+  depends_on = [ module.resources, module.vault ]
 }
