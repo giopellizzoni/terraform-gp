@@ -1,6 +1,6 @@
 resource "azurerm_storage_account" "main" {
   name                     = "sapellizzonicodetf"
-  resource_group_name      = var.service_name
+  resource_group_name      = var.service_group
   location                 = var.service_location
   account_tier             = "Standard"
   account_replication_type = "LRS"
