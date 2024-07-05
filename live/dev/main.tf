@@ -3,7 +3,7 @@ terraform {
     resource_group_name  = "tf-pellizzoni-laboratorio"
     storage_account_name = "sapellizzonicodetf"
     container_name       = "tf-blob-pellizzonicode"
-    key                  = "storage_tf.terraform.tfstate"
+    key                  = "storage_tf-dev.terraform.tfstate"
   }
 }
 
