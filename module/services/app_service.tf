@@ -1,4 +1,4 @@
-resource "azurerm_resource_plan" "main" {
+resource "azurerm_service_plan" "main" {
   name                = "${local.full_name}-plan"
   location            = var.service_location
   resource_group_name = var.service_group
